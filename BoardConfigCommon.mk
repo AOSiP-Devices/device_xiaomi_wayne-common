@@ -27,6 +27,9 @@ include device/xiaomi/sdm660-common/BoardConfigCommon.mk
 
 WAYNE_PATH := device/xiaomi/wayne-common
 
+# Display
+TARGET_SCREEN_DENSITY := 400
+
 # HIDL
 DEVICE_MANIFEST_FILE += $(WAYNE_PATH)/manifest.xml
 
