@@ -738,35 +738,35 @@ vendor/lib64/hw/consumerir.default.so:vendor/lib64/hw/consumerir.sdm660.so
 vendor/etc/qdcm_calib_data_tianma_nt36672_fhd_video_mode_dsi_panel.xml|e6632fbcb6af3082c4cd17afe26a4aab1e63c6ed
 vendor/etc/qdcm_calib_data_jdi_nt36672_fhd_video_mode_dsi_panel.xml|b3ebd0fcd2ed93e621b9a5c13a76ffca7b2c232d
 
-# Fingerprint - from jasmine
-vendor/lib64/hw/fingerprint.default.so:vendor/lib64/hw/fingerprint.sdm660.so
-vendor/lib64/hw/fingerprint.fpc.default.so
-vendor/lib64/hw/fingerprint.goodix.default.so
-vendor/lib64/com.fingerprints.extension@1.0.so
-vendor/lib64/libgf_ca.so
-vendor/lib64/libgf_hal.so
-vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0-service.so
-vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0.so
+# Fingerprint - from jasmine V10.0.2.0.PDIMIFJ
+vendor/lib64/hw/fingerprint.default.so:vendor/lib64/hw/fingerprint.sdm660.so|a614d71107ce28380e8cdcab23e80fb7d014a22d
+vendor/lib64/hw/fingerprint.fpc.default.so|ac0285f2ee91037477771bac74436fa03828edf6
+vendor/lib64/hw/fingerprint.goodix.default.so|30a459e4ff9c047d1cc6a130885460cc07426826
+vendor/lib64/com.fingerprints.extension@1.0.so|2ae37b689b286921702cf9533e9f09ffe6736968
+vendor/lib64/libgf_ca.so|24a5dc2647d5c4b892ed16d74c31cc841604a505|b7635dcbea9a7e7252e746914f995a5ffb92b5d0
+vendor/lib64/libgf_hal.so|d601b957f58e840d2ff5a69f7fda74aca93805b2
+vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0-service.so|ac7f5d1a9cfc04926cde4fb475d074331ba8dbf5
+vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0.so|b47f3d59c111a97a47ed38d4cb05ddf59a47ebac
 
-# Fingerprint firmware - from jasmine
-etc/firmware/goodixfp.b00:vendor/firmware/goodixfp.b00
-etc/firmware/goodixfp.b01:vendor/firmware/goodixfp.b01
-etc/firmware/goodixfp.b02:vendor/firmware/goodixfp.b02
-etc/firmware/goodixfp.b03:vendor/firmware/goodixfp.b03
-etc/firmware/goodixfp.b04:vendor/firmware/goodixfp.b04
-etc/firmware/goodixfp.b05:vendor/firmware/goodixfp.b05
-etc/firmware/goodixfp.b06:vendor/firmware/goodixfp.b06
-etc/firmware/goodixfp.b07:vendor/firmware/goodixfp.b07
-etc/firmware/goodixfp.mdt:vendor/firmware/goodixfp.mdt
-vendor/firmware/fpctzappfingerprint.b00
-vendor/firmware/fpctzappfingerprint.b01
-vendor/firmware/fpctzappfingerprint.b02
-vendor/firmware/fpctzappfingerprint.b03
-vendor/firmware/fpctzappfingerprint.b04
-vendor/firmware/fpctzappfingerprint.b05
-vendor/firmware/fpctzappfingerprint.b06
-vendor/firmware/fpctzappfingerprint.b07
-vendor/firmware/fpctzappfingerprint.mdt
+# Fingerprint firmware - from jasmine V10.0.2.0.PDIMIFJ
+etc/firmware/goodixfp.b00:vendor/firmware/goodixfp.b00|c5c3594b47dffb3aadb81abced42518d24637893
+etc/firmware/goodixfp.b01:vendor/firmware/goodixfp.b01|35e6cc6108ee5f111741ef5d9f0b8e2ae1dfd63f
+etc/firmware/goodixfp.b02:vendor/firmware/goodixfp.b02|ae3a00bbd74309450344a86e94f28b12af0a7c09
+etc/firmware/goodixfp.b03:vendor/firmware/goodixfp.b03|04945a4a182c6f0fd4c6b5460c6c0437602740cd
+etc/firmware/goodixfp.b04:vendor/firmware/goodixfp.b04|70f44536261bca100c3d410300e290f1e426d66e
+etc/firmware/goodixfp.b05:vendor/firmware/goodixfp.b05|c179174508af81ad78b62d4a890abdba84d8c6f5
+etc/firmware/goodixfp.b06:vendor/firmware/goodixfp.b06|c179174508af81ad78b62d4a890abdba84d8c6f5
+etc/firmware/goodixfp.b07:vendor/firmware/goodixfp.b07|4983a219580ebdb1e2d0f8e914c3e1f28a1471a0
+etc/firmware/goodixfp.mdt:vendor/firmware/goodixfp.mdt|e525ffa879859bc8707529d251438a017a67777f
+vendor/firmware/fpctzappfingerprint.b00|2dac6ae3f521fdb514999c4ca76c684738335eb1
+vendor/firmware/fpctzappfingerprint.b01|ad070b8e3ea25be6ebf32c643b03e1db47206b0f
+vendor/firmware/fpctzappfingerprint.b02|cad94d286eb130f4ff17bf1be1fba1e1228ec107
+vendor/firmware/fpctzappfingerprint.b03|1b4af508df69686723aee2a3c60831541d67df82
+vendor/firmware/fpctzappfingerprint.b04|e3bf81d06e5bbe37e45b303090e0068964a1b082
+vendor/firmware/fpctzappfingerprint.b05|3e33546552f8ee4af98008f5907079a43f75d443
+vendor/firmware/fpctzappfingerprint.b06|3e33546552f8ee4af98008f5907079a43f75d443
+vendor/firmware/fpctzappfingerprint.b07|127342f5ddf0f91a9d62d133bfc04fb68fedd0d3
+vendor/firmware/fpctzappfingerprint.mdt|c149e27236e275fcef2cb243c3ab180e84197da2
 
 # Graphics firmware - from jasmine
 vendor/firmware/a512_zap.b00
